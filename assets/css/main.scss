@@ -1,0 +1,54 @@
+.Marketing-agency{
+    span{
+        font-size: 42px;
+            line-height: 33px;
+            color: #222222;
+            font-weight: 600;
+            text-align: left;
+    }
+}
+.strategy{
+    text-align: center;
+    h2{
+            font-size: 100px;
+            letter-spacing: -2px;
+            // line-height: 83px;
+            color: #222222;
+            font-weight: 700;
+            // text-align: center;
+            
+    }
+    p{
+        // width: 835px;
+            // height: 67px;
+            font-size: 21px;
+            color: #222222;
+            font-weight: 400;
+            font-family: "Titillium Web";
+            // 
+    }
+}
+.blue {
+    color: #4242d6;
+}
+.bullet-area{
+font-size: 21px;
+    color: #dc3254;
+    margin-left: 20px;
+    font-weight: 700;
+}
+.bullet {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    /* To make it a circle */
+    border: 1px dotted red;
+
+    font-family: "Titillium Web";
+}
+
+.red {
+    color: #dc3254;
+}
+

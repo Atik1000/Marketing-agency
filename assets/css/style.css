@@ -1,10 +1,11 @@
 body {
   font-family: "Darker Grotesque";
+  margin: 0;
+  padding: 0;
 }
 
 .Marketing-agency span {
   font-size: 42px;
-  line-height: 33px;
   color: #222222;
   font-weight: 600;
   text-align: left;
@@ -13,11 +14,13 @@ body {
 .strategy {
   text-align: center;
 }
-.strategy h2 {
+.strategy h4 {
   font-size: 100px;
-  letter-spacing: -2px;
   color: #222222;
-  font-weight: 700;
+  font-weight: 600;
+}
+.strategy h4 .first {
+  display: block;
 }
 .strategy p {
   font-size: 21px;
@@ -28,6 +31,11 @@ body {
 
 .blue {
   color: #4242d6;
+}
+
+.blue,
+.red {
+  display: inline-block;
 }
 
 .bullet-area {
@@ -47,6 +55,17 @@ body {
   font-family: "Titillium Web";
 }
 
+.bullet-area .row {
+  margin-left: 100px !important; /* Reduce left margin */
+  margin-right: 100px !important; /* Reduce right margin */
+}
+@media screen and (max-width: 768px) {
+  .bullet-area .row {
+    margin-left: 0px !important; /* Adjust margin for smaller screens */
+    margin-right: 0px !important; /* Adjust margin for smaller screens */
+  }
+}
+
 .red {
   color: #dc3254;
 }
@@ -63,7 +82,6 @@ body {
 }
 
 .revoulation h5 {
-  height: 120px;
   font-size: 25px;
   text-transform: uppercase;
   color: #222222;

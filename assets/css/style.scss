@@ -1,10 +1,12 @@
 body{
 font-family: "Darker Grotesque";
+margin: 0;
+padding: 0;
 }
 .Marketing-agency{
     span{
         font-size: 42px;
-            line-height: 33px;
+            // line-height: 33px;
             color: #222222;
             font-weight: 600;
             text-align: left;
@@ -12,28 +14,32 @@ font-family: "Darker Grotesque";
 }
 .strategy{
     text-align: center;
-    h2{
+    h4{
             font-size: 100px;
-            letter-spacing: -2px;
-            // line-height: 83px;
+            // letter-spacing: -5px;
             color: #222222;
-            font-weight: 700;
-            // text-align: center;
+            font-weight: 600;
+        .first{
+             display: block;
+        }
             
     }
     p{
-        // width: 835px;
-            // height: 67px;
             font-size: 21px;
             color: #222222;
             font-weight: 400;
             font-family: "Titillium Web";
-            // 
+            
     }
 }
 .blue {
     color: #4242d6;
 }
+.blue,
+.red {
+  display: inline-block;
+}
+
 .bullet-area{
 font-size: 21px;
     color: #dc3254;
@@ -51,12 +57,26 @@ font-size: 21px;
     font-family: "Titillium Web";
 }
 
+.bullet-area {
+  .row {
+    margin-left: 100px !important; /* Reduce left margin */
+    margin-right: 100px !important; /* Reduce right margin */
+
+    @media screen and (max-width: 768px) {
+      margin-left: 0px !important; /* Adjust margin for smaller screens */
+      margin-right: 0px !important; /* Adjust margin for smaller screens */
+    }
+  }
+}
+
+
+
 .red {
     color: #dc3254;
 }
 
 
-        .justify-words {
+.justify-words {
             font-size: 21px;
             font-weight: 600;
             /* Add letter spacing to distribute space evenly */
@@ -68,7 +88,7 @@ font-size: 21px;
         }
 .revoulation{
     h5{
-        height: 120px;
+        // height: 80px;
         font-size: 25px;
         text-transform: uppercase;
         color: #222222;
@@ -108,16 +128,14 @@ font-weight: 700;
 font-family: "Darker Grotesque";
 text-align: left;
 .book-now{
-    // border-right: 1px solid;
-
     border: 1px solid;
     padding: 5px;
-      flex-wrap: wrap;
+    flex-wrap: wrap;
 
 }
 .number{
     border: 1px solid;
-    padding: 24px;
+    padding:24px;
 }
 }
 }
