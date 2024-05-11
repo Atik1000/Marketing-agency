@@ -51,12 +51,41 @@ body {
 }
 
 .justify-words {
-  word-spacing: 3;
   font-size: 21px;
+  font-weight: 600;
   /* Add letter spacing to distribute space evenly */
   word-spacing: 6em;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
   display: inline;
+}
+
+.revoulation h5 {
+  height: 120px;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #222222;
+  font-weight: 700;
+  font-family: "Titillium Web";
+  text-align: center;
+}
+.revoulation p {
+  font-size: 21px;
+  color: #222222;
+  font-weight: 400;
+  font-family: "Titillium Web";
+}
+
+.footer .box1 {
+  height: 22px;
+  width: 22px;
+  border: 1px solid;
+}
+.footer .box2 {
+  margin-top: 3px;
+  background-color: #222222;
+  height: 22px;
+  width: 22px;
+  border: 1px solid;
 }/*# sourceMappingURL=style.css.map */
