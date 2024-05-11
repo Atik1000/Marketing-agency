@@ -37,6 +37,7 @@ font-family: "Darker Grotesque";
 .bullet-area{
 font-size: 21px;
     color: #dc3254;
+    margin-left: 20px;
     font-weight: 700;
 }
 .bullet {
@@ -97,5 +98,26 @@ font-size: 21px;
     width: 22px;
     border: 1px solid;
 }
+.contact{
+    padding: 10px 48px;
+    font-size: 42px;
+letter-spacing: -1px;
+line-height: 33px;
+color: #222222;
+font-weight: 700;
+font-family: "Darker Grotesque";
+text-align: left;
+.book-now{
+    // border-right: 1px solid;
 
+    border: 1px solid;
+    padding: 5px;
+      flex-wrap: wrap;
+
+}
+.number{
+    border: 1px solid;
+    padding: 24px;
+}
+}
 }

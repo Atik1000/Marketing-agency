@@ -33,6 +33,7 @@ body {
 .bullet-area {
   font-size: 21px;
   color: #dc3254;
+  margin-left: 20px;
   font-weight: 700;
 }
 
@@ -88,4 +89,23 @@ body {
   height: 22px;
   width: 22px;
   border: 1px solid;
+}
+.footer .contact {
+  padding: 10px 48px;
+  font-size: 42px;
+  letter-spacing: -1px;
+  line-height: 33px;
+  color: #222222;
+  font-weight: 700;
+  font-family: "Darker Grotesque";
+  text-align: left;
+}
+.footer .contact .book-now {
+  border: 1px solid;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+.footer .contact .number {
+  border: 1px solid;
+  padding: 24px;
 }/*# sourceMappingURL=style.css.map */
