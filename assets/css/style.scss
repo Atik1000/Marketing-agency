@@ -3,6 +3,34 @@ font-family: "Darker Grotesque";
 margin: 0;
 padding: 0;
 }
+
+.header-left-top{
+    position: absolute;
+    left: 0;
+    top: 0;
+    // width: ;
+    height: 300px;
+}
+.header-right-top{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 300px;
+}
+.header-right-top-middle{
+    position: absolute;
+    right: 10px;
+    top: 320px;
+    width: 120px;
+}
+ .logo {
+    height: 80px;
+    margin-bottom: 40px;
+
+    @media (min-width: 992px) {
+      margin-top: 50px;
+    }
+}
 .Marketing-agency{
     span{
         font-size: 42px;
@@ -14,6 +42,9 @@ padding: 0;
 }
 .strategy{
     text-align: center;
+    .Digital-strategy{
+        position: relative;
+    }
     h4{
             font-size: 100px;
             // letter-spacing: -5px;
@@ -30,6 +61,24 @@ padding: 0;
             font-weight: 400;
             font-family: "Titillium Web";
             
+    }
+    // .one{
+    //     position: relative;
+    // }
+    .arrow-right{
+        top: 0;
+        left: 80px;
+        height: 300px;
+        width: 200px;
+        position: absolute;
+    }
+    .arrow-left{
+
+        top: 0;
+        right: 80px;
+        height: 100px;
+        //  width: 200px;
+        position: absolute;
     }
 }
 .blue {
@@ -75,17 +124,27 @@ font-size: 21px;
     color: #dc3254;
 }
 
+ 
+  .list {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+ ul{
+    list-style-type: none;
+    padding: 0;
 
-.justify-words {
+    li {
+      margin-right: 10px;
+        
             font-size: 21px;
             font-weight: 600;
-            /* Add letter spacing to distribute space evenly */
-            word-spacing: calc(12em / (length(text()) + 1));
-            text-overflow: ellipsis;
-            overflow: hidden;
-            white-space: nowrap;
-            display: inline;
-        }
+            justify-content: space-between;
+    }
+
+}
+  }
+
+
 .revoulation{
     h5{
         // height: 80px;
@@ -106,6 +165,8 @@ font-size: 21px;
 }
 
 .footer {
+    margin-top: 70px;
+    margin-bottom: 60px;
 .box1{
     height: 22px;
     width: 22px;
@@ -127,6 +188,8 @@ color: #222222;
 font-weight: 700;
 font-family: "Darker Grotesque";
 text-align: left;
+margin-top: -30px;
+
 .book-now{
     border: 1px solid;
     padding: 5px;
@@ -138,4 +201,28 @@ text-align: left;
     padding:24px;
 }
 }
+}digital-sterategy
+
+
+.banner-fix {
+  position: relative;
 }
+
+.banner {
+  display: flex;
+  justify-content: center; /* Aligns horizontally in the center */
+  align-items: flex-start; /* Aligns vertically at the top */
+  position: relative;
+  width: 90%;
+  margin-left: 10%;
+   margin-top: 60px;
+//    margin-bottom: 20px;
+}
+
+.banner-top {
+  position: absolute;
+  top: 55px; /* Aligns at the top of the parent div */
+  left: 50%; /* Moves to the middle horizontally */
+  transform: translateX(-50%); /* Adjusts horizontally to center */
+}
+
