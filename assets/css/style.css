@@ -48,37 +48,38 @@ body {
   top: 320px;
   width: 120px;
 }
-@media (max-width: 320px) {
+@media (max-width: 768px) {
+  .header-right-top-middle {
+    height: 50px;
+    width: 50px;
+    top: 140px;
+  }
+}
+@media (max-width: 600px) {
   .header-right-top-middle {
     width: 15%;
     height: 30;
     position: absolute;
-    top: 100px;
+    top: 140px;
     right: 2px;
-  }
-}
-@media (max-width: 768px) {
-  .header-right-top-middle {
-    height: 30px;
-    width: 15%;
   }
 }
 
 .logo {
   height: 80px;
   margin-bottom: 40px;
+  margin-top: 60px;
 }
 @media (max-width: 320px) {
   .logo {
-    width: 50%;
-    height: 40px;
+    height: 18px;
     align-items: center;
   }
 }
 @media (max-width: 768px) {
   .logo {
-    height: 40px;
-    width: 25%;
+    height: 28px;
+    width: 32%;
     align-items: center;
   }
 }
@@ -96,12 +97,18 @@ body {
 .strategy .Digital-strategy {
   position: relative;
 }
-.strategy h4 {
+.strategy h1 {
   font-size: 100px;
+  line-height: 0.8;
   color: #222222;
-  font-weight: 600;
+  font-weight: 700;
 }
-.strategy h4 .first {
+@media (max-width: 768px) {
+  .strategy h1 {
+    font-size: 45px;
+  }
+}
+.strategy h1 .first {
   display: block;
 }
 .strategy p {
@@ -111,17 +118,34 @@ body {
   font-family: "Titillium Web";
 }
 .strategy .arrow-right {
-  top: -60px;
+  top: -86px;
   left: 80px;
   height: 310px;
   width: 200px;
   position: absolute;
 }
+@media (max-width: 600px) {
+  .strategy .arrow-right {
+    top: 2px;
+    left: -25px;
+    height: 140px;
+    width: 106px;
+    position: absolute;
+  }
+}
 .strategy .arrow-left {
-  top: 45px;
-  right: 80px;
+  top: 21px;
+  right: 128px;
   height: 85px;
   position: absolute;
+}
+@media (max-width: 600px) {
+  .strategy .arrow-left {
+    top: 51px;
+    right: -4px;
+    height: 38px;
+    position: absolute;
+  }
 }
 
 .blue {
@@ -172,10 +196,13 @@ body {
 .list ul {
   list-style-type: none;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   .list ul {
-    flex-wrap: wrap;
+    display: block;
   }
 }
 .list ul li {
@@ -203,11 +230,22 @@ body {
 .footer {
   margin-top: 70px;
   margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .box {
+  justify-content: space-between;
 }
 .footer .box1 {
   height: 22px;
   width: 22px;
   border: 1px solid;
+}
+@media (max-width: 768px) {
+  .footer .box1 {
+    margin-top: 10px;
+  }
 }
 .footer .box2 {
   margin-top: 3px;
@@ -225,7 +263,12 @@ body {
   font-weight: 700;
   font-family: "Darker Grotesque";
   text-align: left;
-  margin-top: -30px;
+}
+@media (max-width: 768px) {
+  .footer .contact {
+    padding: 5px 20px;
+    font-size: 20px;
+  }
 }
 .footer .contact .book-now {
   border: 1px solid;
@@ -251,10 +294,21 @@ digital-sterategy .banner-fix {
   margin-left: 10%;
   margin-top: 60px;
 }
+@media (max-width: 600px) {
+  .banner {
+    width: 100%;
+    margin: 30px 10px;
+  }
+}
 
 .banner-top {
   position: absolute;
   top: 55px; /* Aligns at the top of the parent div */
   left: 50%; /* Moves to the middle horizontally */
   transform: translateX(-50%); /* Adjusts horizontally to center */
+}
+@media (max-width: 768px) {
+  .banner-top {
+    height: 50%;
+  }
 }/*# sourceMappingURL=style.css.map */

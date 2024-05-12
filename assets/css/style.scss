@@ -41,34 +41,35 @@ padding: 0;
     right: 10px;
     top: 320px;
     width: 120px;
-    @media (max-width: 320px) {
+
+    @media (max-width:768px) {
+        height: 50px;
+        width: 50px;
+        top: 140px;
+        
+    }
+    @media (max-width: 600px) {
       width: 15%;
       height: 30;
       position: absolute;
-      top: 100px;
+      top: 140px;
       right: 2px;
-    }
-    @media (max-width:768px) {
-        height: 30px;
-        width: 15%;
-        
     }
 }
  .logo {
     height: 80px;
     margin-bottom: 40px;
+    margin-top: 60px;
 
     @media (max-width: 320px) {
 
-    width: 50%;
-    height: 40px;
+    height: 18px;
     align-items: center;
     }
 
     @media (max-width:768px) {
-        height: 40px;
-        width: 25%;
-        // left: 10px;
+        height: 28px;
+        width: 32%;
 
     align-items: center;
         
@@ -77,7 +78,6 @@ padding: 0;
 .Marketing-agency{
     span{
         font-size: 42px;
-            // line-height: 33px;
             color: #222222;
             font-weight: 600;
             text-align: left;
@@ -88,11 +88,17 @@ padding: 0;
     .Digital-strategy{
         position: relative;
     }
-    h4{
+    h1{
             font-size: 100px;
-            // letter-spacing: -5px;
+            line-height: .8;
             color: #222222;
-            font-weight: 600;
+            font-weight: 700;
+
+    @media (max-width:768px) {
+       font-size: 45px;
+        
+    }
+            
         .first{
              display: block;
         }
@@ -106,18 +112,34 @@ padding: 0;
             
     }
     .arrow-right{
-        top: -60px;
+        top: -86px;
         left: 80px;
         height: 310px;
         width: 200px;
         position: absolute;
+        @media (max-width:600px) {
+            top: 2px;
+    left: -25px;
+    height: 140px;
+    width: 106px;
+    position: absolute;
+        }
     }
     .arrow-left{
 
-        top: 45px;
-        right: 80px;
+        top: 21px;
+        right: 128px;
         height: 85px;
         position: absolute;
+
+        @media (max-width:600px) {
+
+    top: 51px;
+    right: -4px;
+    height: 38px;
+    position: absolute;
+            
+        }
     }
 }
 .blue {
@@ -166,11 +188,16 @@ padding: 0;
     padding: 0;
     margin: 0;
     width: 100%;
+    
  ul{
     list-style-type: none;
     padding: 0;
-    @media screen and (max-width: 320px) {
-        flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media screen and (max-width: 600px) {
+        display: block;
+
     }
 
     li {
@@ -207,10 +234,21 @@ padding: 0;
 .footer {
     margin-top: 70px;
     margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .box{
+
+            justify-content: space-between;
+    }
 .box1{
     height: 22px;
     width: 22px;
     border: 1px solid;
+    @media (max-width:768px) {
+   margin-top: 10px;
+        
+    }
 }
 .box2{
     margin-top: 3px;
@@ -228,8 +266,14 @@ color: #222222;
 font-weight: 700;
 font-family: "Darker Grotesque";
 text-align: left;
-margin-top: -30px;
+// margin-top: -30px;
 
+    @media (max-width:768px) {
+   
+    padding: 5px 20px;
+    font-size: 20px;
+        
+    }
 .book-now{
     border: 1px solid;
     padding: 5px;
@@ -257,7 +301,13 @@ margin-top: -30px;
   width: 90%;
   margin-left: 10%;
    margin-top: 60px;
-//    margin-bottom: 20px;
+
+   @media (max-width:600px) {
+   
+    width: 100%;
+    margin: 30px 10px;
+
+   }
 }
 
 .banner-top {
@@ -265,5 +315,27 @@ margin-top: -30px;
   top: 55px; /* Aligns at the top of the parent div */
   left: 50%; /* Moves to the middle horizontally */
   transform: translateX(-50%); /* Adjusts horizontally to center */
+
+    @media (max-width:768px) {
+   height: 50%;
+//    width: 50%;
+        
+    }
 }
 
+// .strategy .arrow-right {
+//     top: 2px;
+//     left: -25px;
+//     height: 140px;
+//     width: 106px;
+//     position: absolute;
+// }
+
+
+
+// .strategy .arrow-left {
+//     top: 51px;
+//     right: -4px;
+//     height: 38px;
+//     position: absolute;
+// }

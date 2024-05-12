@@ -60,3 +60,14 @@ document.addEventListener("DOMContentLoaded", function () {
         ease: "linear", // Linear easing for continuous rotation
       });
     });
+
+
+      document.addEventListener("DOMContentLoaded", function () {
+    gsap.from("h1 span", {
+      duration: 1, // Animation duration per letter
+      opacity: 0, // Start from opacity 0
+      y: -20, // Move up by 20 pixels
+      ease: "power4.out", // Easing function
+      stagger: 0.1 // Stagger the animation of each letter by 0.1 seconds
+    });
+  });
